@@ -19,7 +19,7 @@ const App = () => {
   return (
     <Fragment>
       {!isLoaded && (
-        <div className="wrapper-loading">
+        <div className="loading">
           <div className="boxes">
             <div className="box">
               <div></div>

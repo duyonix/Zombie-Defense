@@ -3,12 +3,11 @@ body {
   background-size: cover;
 }
 
-.wrapper-loading {
-  min-height: 100vh;
-  font-family: Roboto, Arial;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .wrapper {
